@@ -1,0 +1,76 @@
+
+
+
+.skills__container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-color: #0F69FA;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 20vh;
+    gap: 40px;
+    margin: 10vh auto;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    background-color: rgba(196, 196, 196, 0.068);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:    
+        "skills1        skills2         skills3"
+        "skills4        skills5         skills6"
+        "skills7        skills8         skills9";
+
+        .skills__item {
+            background-color: transparent;
+            text-align: center;
+        }
+
+        > #skills9:hover {
+            visibility: hidden;
+        }
+
+        #skills1 {
+            grid-area: skills1;
+        }
+
+        #skills2 {
+            grid-area: skills2;
+        }
+
+        #skills3 {
+            grid-area: skills3;
+        }
+
+        #skills4 {
+            grid-area: skills4;
+        }
+
+        #skills5 {
+            grid-area: skills5;
+        }
+
+        #skills6 {
+            grid-area: skills6;
+        }
+
+        #skills7 {
+            grid-area: skills7;
+        }
+
+        #skills8 {
+            grid-area: skills8;
+        }
+
+        #skills9 {
+            grid-area: skills9;
+        }
+}
+

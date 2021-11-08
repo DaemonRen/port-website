@@ -1,0 +1,39 @@
+
+
+@import "assets/sections/hero";
+@import "assets/sections/about";
+@import "assets/sections/skills";
+@import "assets/sections/port";
+@import "assets/sections/contact";
+
+
+
+
+html {
+  scroll-behavior: smooth;
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+  }
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 106, 155);
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 80, 117); 
+  }

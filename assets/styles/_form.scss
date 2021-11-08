@@ -1,0 +1,23 @@
+
+@import "../styles/typography";
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    font-family: $section-font;
+    color: $form__text-color;
+
+    .contact__text {
+        font-size: 1.5rem;
+    }
+
+    .contact__btn {
+        display: flex;
+    }
+}
+
+.contact__form > :not(:last-child) {
+    padding-bottom: 1vh;
+    margin-bottom: 1vh;
+}

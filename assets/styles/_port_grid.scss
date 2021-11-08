@@ -1,0 +1,54 @@
+
+
+.port__container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    row-gap: 20vh;
+    column-gap: 100px;
+    padding-top: 20vh;
+    margin: 10vh auto;
+    width: 60vw;
+    height: 600px;
+    padding: 20px;
+    background: transparent;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 75px);
+    grid-template-areas:    
+        "port1        port2         port3"
+        "port4        port5         port6";
+
+        .port__item {
+            background: rgba(71, 69, 145, 0.14);
+            border-radius: 20px;;
+            text-align: center;
+            height: 500px;
+        }
+
+        #port1 {
+            grid-area: port1;
+        }
+        
+        #port2 {
+            grid-area: port2;
+        }
+        
+        #port3 {
+            grid-area: port3;
+        }
+        
+        #port4 {
+            grid-area: port4;
+        }
+        
+        #port5 {
+            grid-area: port5;
+        }
+        
+        #port6 {
+            grid-area: port6;
+        }
+}
+
+
+

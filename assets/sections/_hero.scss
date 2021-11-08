@@ -1,0 +1,110 @@
+
+@import "../styles/typography";
+
+.hero {
+
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #2F006A 32.29%, rgba(118, 15, 250, 0.64) 100%);
+    right: 0;
+    top: 0;
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        background-color: transparent;
+        position: fixed;
+        right: 10vw;
+        top: 5vh;
+        z-index: 99;
+    }
+
+    li {
+        float: left;
+        padding: 10px;
+        font-family: $nav-font;
+        color: $hero__text-color;
+    }
+
+        > a {
+            display: block;
+
+
+        }
+    }
+
+    .hero__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 10vw;
+        padding-top: 5vh;
+        padding-right: 10vw;
+
+        .hero__title {
+            display:flex;
+            justify-content: flex-start;
+        }
+
+            #hero__title-1 {
+                font-family: $h1-font;
+                font-weight: bold;
+                color: $hero__text-color;
+                font-size: 1.1em;
+                margin: auto;
+            }
+
+            #hero__title-2 {
+                font-family: $h1-font;
+                font-weight: lighter;
+                color: $hero__text-color;
+                font-size: 0.9em;
+                margin: auto;
+            }
+    }
+
+    
+
+    .hero__nav-bar{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        max-width: 68%;
+        height: 100%;
+        margin: auto;
+        right: 0;
+        bottom: 0;
+        background-color: transparent;
+        margin-right: 0;
+    }
+
+    .hero__nav-link {
+        padding: 0 3vw 0 3vw;
+        text-decoration: none;
+        color: $hero__text-color;
+        font-size: 1.5em;
+    }
+
+    .hero__statement{
+        display: block;
+        max-width: 70vw;
+        padding: 10vh 0 20vh;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: $title-font;
+        color: $hero__text-color;
+        font-size: 4em;
+        font-weight: lighter;
+
+
+        > .hero__statement-text {
+            text-align: center;
+
+        > .fa-github {
+            display: block;
+        }
+    }
+}
